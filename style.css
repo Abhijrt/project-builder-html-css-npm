@@ -376,3 +376,41 @@ i {
   justify-content: center;
   align-items: center;
 }
+
+/* seven */
+#seventh-section {
+  display: flex;
+  width: 100%;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+#seventh-section div {
+  display: flex;
+  width: 100%;
+}
+
+#seventh-section div h3 {
+  width: 100%;
+  font-size: 20px;
+  color: black;
+}
+
+#seventh-section div ul li {
+  width: 100%;
+  padding-top: 15px;
+  color: grey;
+  padding-left: -20px;
+}
+
+#seventh-section img {
+  display: flex;
+  height: 100px;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+.line {
+  border-bottom: 2px solid lightgrey;
+  width: 100%;
+}
