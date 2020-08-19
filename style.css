@@ -234,3 +234,44 @@ main {
   background-color: #e81ba8;
   border-bottom: 5px solid#b30ad3;
 }
+
+/* third section */
+
+#third-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-size: cover;
+  margin-top: 10px;
+  color: white;
+  padding: 64px;
+}
+
+#third-section div {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+}
+
+#third-section h1 {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  font-weight: 600;
+  padding: 30px;
+}
+
+#third-section p {
+  display: flex;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  width: 100%;
+}
