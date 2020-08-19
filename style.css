@@ -241,7 +241,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  background-size: cover;
   margin-top: 10px;
   color: white;
   padding: 64px;
@@ -274,4 +273,39 @@ main {
   color: black;
   text-align: center;
   width: 100%;
+}
+
+/* four section */
+
+#fourth-section {
+  display: flex;
+  width: 100%;
+  margin: 10%;
+  color: black;
+}
+
+#fourth-section div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#fourth-section span {
+  padding: 10px;
+  font-weight: bolder;
+}
+
+#fourth-section p {
+  padding: 10px;
+  font-size: 0.8em;
+  font-weight: 0;
+}
+
+#fourth-section button {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  border-radius: 80px;
+  width: 80%;
 }
