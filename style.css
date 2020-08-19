@@ -179,6 +179,58 @@ main {
   margin: 20px;
 }
 
-#h1-hendler {
-  margin: -100px;
+/* second */
+
+#second-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background: url("assets/background2.png");
+  background-size: cover;
+  margin-top: 10px;
+  color: white;
+}
+
+#second-section h1 {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+  font-weight: 600;
+}
+
+#second-section p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 100%;
+  margin: 20px;
+}
+
+#second-section div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#second-section a {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 240px;
+  margin: 10px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+#first-link {
+  background-color: #c12228;
+  border-bottom: 5px solid#fa8718;
+}
+
+#second-link {
+  background-color: #e81ba8;
+  border-bottom: 5px solid#b30ad3;
 }
